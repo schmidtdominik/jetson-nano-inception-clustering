@@ -1,6 +1,6 @@
-# jetson-nano-inception-clustering
+# Image clustering based on InceptionV3 activations on an Nvidia Jetson Nano
 
-Example clustering with 128 clusters:
+Example clustering with 128 clusters and using [this dataset](https://dominikschmidt.xyz/mars32k/):
 
 **Cluster 0**
 
