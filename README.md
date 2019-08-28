@@ -55,6 +55,3 @@ Example clustering with 128 clusters and using [this dataset](https://dominiksch
 **Cluster 9**
 
 ![Image](https://raw.githubusercontent.com/schmidtdominik/jetson-nano-inception-clustering/master/example%20images/c10.png)
-
-**Cluster 10**
-
