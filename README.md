@@ -1,5 +1,9 @@
 # Image clustering based on InceptionV3 activations on an Nvidia Jetson Nano
 
+The Jetson TX2 has been the Tumbleweed’s main computer for the past year and we have had a great experience working with it so far. With the release of their new Jetson Nano, NVIDIA provided us with a sample unit to try out. The Jetson Nano is a slightly less powerful but far cheaper SoC (system on a chip) that is meant to run neural networks locally, reducing latency when deploying applications that need such features “on-the-edge” such as robotics. While it is not radiation hardened or tolerant, it is certainly a useful test platform for parts of the Tumbleweed. We took a closer look and came up with a sample application that showcases the Jetson Nano’s strengths when used to help select which images to send back to Earth, a use case that is extremely important for us.
+
+<hr>
+
 The goal of this project is to finely cluster images of various martian surface features (like rock formations, sand dunes, ravines, etc.). This may allow Tumbleweeds operations team to more selectively decide which images to transmit back to Earth from Mars to better utilize the available bandwidth.
 
 The underlying clustering technique is the basic (but fast) k-means algorithm. K-means clustering works by starting with some initial (random or heuristically selected) cluster centers and then adjusting them iteratively.
